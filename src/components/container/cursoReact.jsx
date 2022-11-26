@@ -11,7 +11,7 @@ constructor(props) {
         fecha: new Date(),
         edad: 0,
         nombre: 'David',
-        apellidos: 'Sanchez'
+        apellidos: 'Sanchez Rodenas'
     };
 }
 
@@ -21,7 +21,7 @@ componentDidMount(){
     this.timerID = setInterval (
     () => this.tick(), 1000
     );
-    
+
 }
 
 
