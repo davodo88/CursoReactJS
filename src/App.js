@@ -1,8 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Ejemplo4 from './hooks/Ejemplo4';
-import Clock from './components/container/cursoReact';
-
 
 
 
@@ -19,7 +16,7 @@ function App() {
           {/*<Ejemplo1/>*/}
           {/*<Ejemplo2/>*/}
           {/*<MiComponenteConContexto />*/}
-          <div className='box'>
+          {/*<div className='box'>
             <Ejemplo4 nombre={"David"}>
             <h3>
               contenido del props.children
@@ -30,8 +27,8 @@ function App() {
               contenido del props.children
             </h3>
           </Ejemplo4>
-          </div>
-          <Clock />
+          </div>*/}
+          
       </header>
     </div>
   );
